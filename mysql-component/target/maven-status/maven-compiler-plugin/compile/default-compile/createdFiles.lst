@@ -1,0 +1,5 @@
+com\frog\backend\components\mysql\component\mapper\BaseMapper.class
+com\frog\backend\components\mysql\component\service\impl\BaseServiceImpl.class
+com\frog\backend\components\mysql\component\pojo\domain\BaseDomain.class
+com\frog\backend\components\mysql\component\pojo\param\PageParam.class
+com\frog\backend\components\mysql\component\service\BaseService.class
