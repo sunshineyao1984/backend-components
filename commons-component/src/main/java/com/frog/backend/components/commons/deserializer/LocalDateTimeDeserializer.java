@@ -20,7 +20,7 @@ public class LocalDateTimeDeserializer extends JsonDeserializer<LocalDateTime> {
     @Override
     public LocalDateTime deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JsonProcessingException {
         String time = jsonParser.getText();
-        if(time.contains(TimeUtils.STRING_MARK)){
+        if(time.contains(TimeUtils.STRING_DATE_MARK)){
             return TimeUtils.stringToLocalDateTime(time,TimeUtils.TimeFormat.LONG_DATE_PATTERN_LINE);
         }
         return TimeUtils.millisToLocalDateTime(Long.parseLong(time));

@@ -21,7 +21,7 @@ public class LocalDateDeserializer extends JsonDeserializer<LocalDate> {
     public LocalDate deserialize(JsonParser jsonParser, DeserializationContext deserializationContext)
             throws IOException, JsonProcessingException {
         String time = jsonParser.getText();
-        if(time.contains(TimeUtils.STRING_MARK)){
+        if(time.contains(TimeUtils.STRING_DATE_MARK)){
             return TimeUtils.stringToLocalDate(time,TimeUtils.TimeFormat.SHORT_DATE_PATTERN_LINE);
         }
         return TimeUtils.millisToLocalDate(Long.parseLong(time));

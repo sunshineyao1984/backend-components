@@ -14,7 +14,7 @@ import java.util.Date;
  */
 public class TimeUtils {
 
-    public static final String STRING_MARK = "-";
+    public static final String STRING_DATE_MARK = "-";
     public static final String STRING_TIME_MARK = ":";
 
     /**
