@@ -10,5 +10,5 @@ import tk.mybatis.mapper.common.SqlServerMapper;
  * @author yxy
  * @date 2021-01-26
  */
-public interface BaseMapper<T> extends Mapper<T>, IdsMapper<T>, SqlServerMapper<T> {
+public interface BaseMapper<T> extends Mapper<T>, IdsMapper<T> {
 }
