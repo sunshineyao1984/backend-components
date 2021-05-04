@@ -26,6 +26,13 @@
         <com.frog.backend.components.version>1.0.0-SNAPSHOT</com.frog.backend.components.version>
     </properties>
 
+    <modules>
+        <module>commons-component</module>
+        <module>mysql-component</module>
+        <module>redis-component</module>
+        <module>sqlserver-component</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <!-- Spring Cloud 相关依赖 -->
