@@ -31,3 +31,7 @@ HELP.md
 
 mvnw
 mvnw.cmd
+/commons-component/target/
+/mysql-component/target/
+/redis-component/target/
+/sqlserver-component/target/
